@@ -1,0 +1,182 @@
+UL {PADDING: 0px; MARGIN: 0px;}
+LI {PADDING: 0px; MARGIN: 0px;}
+P {line-height:10px;}
+#shanghai {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+#shanghai #top {
+	height: 110px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/top_skin.jpg);
+}
+#shanghai #top #logo {
+	height: 80px;
+	width: 80px;
+	margin-left: 50px;
+	padding-top: 13px;
+}
+#shanghai #main {
+	height: 400px;
+	width: 1024px;
+	margin-top: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #f1f1f1;
+}
+#shanghai #main #Bar {
+	height: 400px;
+	width: 155px;
+	float: left;
+}
+#shanghai #main #Bar #bar01 {
+	height: 39px;
+	margin-top: 4px;
+	border-radius: 6px;
+	text-align:center;
+	line-height:39px;
+	background-image: linear-gradient(to right,#fff3f1,#fff9e8,#e9fff6,#eaf3fc);/*向右的四色渐变*/
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #000;
+}
+#shanghai #main02 {
+	height: 200px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 6px;
+	border: 1px solid #f1f1f1;
+	background-color: #f1f1f1;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333;
+	line-height: 25px;
+	text-indent:2em;
+}
+#shanghai #main04 {
+	height: 200px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 6px;
+	border: 1px solid #f1f1f1;
+	background-color: #f1f1f1;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333;
+	line-height: 25px;
+}
+#shanghai #main03 {
+	height: 200px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 120px;
+	border: 1px solid #f1f1f1;
+	background-color: #f1f1f1;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333;
+	line-height: 25px;
+	text-indent:2em;
+	text-align-last:justify;
+text-align:justify;
+text-justify:distribute-all-lines; 
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #D00015;
+}
+a:active {
+	text-decoration: none;
+}
+#shanghai #main #Bar #pic01 {
+	height: 270px;
+	margin-top: 3px;
+}
+#shanghai #main #content1 {
+	float: left;
+	height: 396px;
+	width: 852px;
+	margin-left: 14px;
+	border: 1px solid #f1f1f1;
+	margin-top: 4px;
+}
+#shanghai #footer {
+	font-size: 14px;
+	color: #FFF;
+	background-color: #06F;
+	height: 40px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	text-align:center;
+	line-height:40px;
+	border-radius: 40px;
+}
+
+
+.container {
+	WIDTH: 852px;
+	HEIGHT: 396px
+}
+.container A IMG {
+	WIDTH: 852px;
+	HEIGHT: 396px
+}
+.container IMG {
+	BORDER-BOTTOM-STYLE: none;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-TOP-STYLE: none;
+	BORDER-LEFT-STYLE: none
+}
+.td_f A IMG {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+.num {
+	POSITION: absolute;
+	WIDTH: 90px;
+	FLOAT: right;
+	TOP: 363px;
+	LEFT: 735px
+}
+.num LI {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 15px;
+	LIST-STYLE-TYPE: none;
+	MARGIN: 1px;
+	WIDTH: 15px;
+	FONT-FAMILY: Arial;
+	BACKGROUND: url(../images/flashbutton.gif) no-repeat -15px 0px;
+	FLOAT: left;
+	HEIGHT: 15px;
+	COLOR: #86a2b8;
+	FONT-SIZE: 12px;
+	CURSOR: pointer
+}
+.num LI.on {
+	LINE-HEIGHT: 15px;
+	WIDTH: 15px;
+	BACKGROUND: url(../images/flashbutton.gif) no-repeat;
+	HEIGHT: 15px;
+	COLOR: #ffffff
+}
